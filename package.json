@@ -1,8 +1,14 @@
 {
   "name": "app",
+  "homepage": "https://game.casspiseaweb.com",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+
+  
   "scripts": {
+   
+    "build": "./node_modules/.bin/webpack --config webpack.conf.js",
+
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
